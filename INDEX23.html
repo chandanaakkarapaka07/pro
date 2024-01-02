@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML FORMS ASSIGNMENT</title>
+</head>
+<body>
+    <H2 align="center">HTML Form Tag Assignment</H2><HR>
+        <h4 align="right">Date:18/12/2023</h4>
+    <h3>1. Design a basic contact form with fields for name, email, and message to allow users to send inquiries or feedback.</H3>
+    <FORM>
+    <table  align="center" bgcolor="pink" >
+        <caption>Contact form</caption>
+        <tr>
+            <td>Firstname:</td><td> <input type="text" name="fnname" </td>
+        </tr>
+        <tr>
+            <td>Lastname:</td><td> <input type="text" name="fnname" </td>
+        </tr>
+        <tr>
+            <td>Password:</td><td><input type="password" name="lnname"</td>
+        </tr>
+        <tr>
+            <td>Email address:</td><td><input type="email" name="email"</td>
+        </tr>
+        <tr>
+            <td>Feedback: <td><textarea rows="7" cols="20" name="feedback"></textarea>
+            </td>
+        </tr>
+        
+        
+    </table>
+    </FORM>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <H3>2. Develop a registration form with input fields for username, email, password, and a confirmation field to register new users on a website.</H>
+        <FORM>
+            <table   align="CENTER" bgcolor="pink"  >
+                <p align="center">Please fill in this form to create an account.</p>
+                <h2 align="center">Register</h2>
+                
+                
+                <tr>
+                    <td>Email:</td><td> <input type="text" name="fnname" placeholder="Enter Email" id="email" required></td>
+                </tr>
+                 <tr> <td>Password:</td><td><input type="password" name="lnname" placeholder="Enter Password" id="password" required></td>
+                </tr>
+                <tr>
+                    <td>Repeat Password:</td><td><input type="password" name="lnname" placeholder=" Repeat Password"id="repeat password" required></td>
+                </tr>
+                <tr><td colspan="2" align="center"><button type="submit" class="registerbtn">Register</button></td></tr>
+                <tr>
+                    <td colspan="2"><p>Already have an account? <a href="#">Sign in</a></p>.</td>
+                </tr>
+                
+            
+            </table>
+        </FORM>
+        <H4>3. Construct an order form for an online store, including options for selecting products, quantity, and shipping details</H4>
+    <FORM>
+        <table  align="CENTER" bgcolor="pink" >
+            <caption>Online Store Order Form</caption>
+            <tr>
+                <td>customer_name</td><td> <input type="text" id="customer_name" name="customer_name" required>
+
+                </td>
+            </tr>
+            <tr>
+                <td>customer_email</td><td> <input type="email" id="customer_email" name="customer_email" required>
+
+                </td>
+            </tr>
+            <tr>
+                <td>Select a Product:</td><td><select id="product" name="product" required>
+                    <option value="product1">Product 1 - $20.00</option>
+                    <option value="product2">Product 2 - $30.00</option>
+                    <!-- Add more product options as needed -->
+                </select></td>
+            </tr>
+            <tr>
+                <td>Quantity:</td><td><input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+                </td>
+            </tr>
+            <tr>
+                <td>Shipping address:</td><td> <textarea id="shipping_address" name="shipping_address" rows="4" required></textarea>
+
+                </td>
+            </tr>
+            <tr>
+                <td>country:</td><td> <textarea id="country" name="country" required></textarea>
+
+                </td>
+            </tr>
+            <tr>
+                <td>zipcode:</td><td><input type="text" id="zip_code" name="number" required></td>
+            </tr>
+            
+            <tr>
+                <td>credit_card</td><td><input type="text" id="credit_card" name="credit_card" required>
+                </td>
+            </tr>
+            <tr>
+                <td>expiry_date</td><td><input type="text" id="expiry" name="expiry" placeholder="MM/YYYY" required>
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button type="submit">Place Order</button></td> 
+
+            </tr>
+            </table>
+    </FORM>
+    <h3>4. Create a search form with a text input field and a search button to enable users to search for specific information on a website.</h3>
+    <form>
+        <label for="searchQuery">Search:</label>
+        <input type="text" id="searchQuery" name="q" placeholder="Enter your search term" required>
+        <button type="submit">Search</button>
+    </form>
+ </body>
+</html>
+
+
